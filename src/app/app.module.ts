@@ -10,6 +10,7 @@ import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentReadingComponent } from './content-reading/content-reading.component';
 import { ContentPurchaseComponent } from './content-purchase/content-purchase.component';
+import { ContentWalletComponent } from './content-wallet/content-wallet.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContentPurchaseComponent } from './content-purchase/content-purchase.co
     ContentComponent,
     FooterComponent,
     ContentReadingComponent,
-    ContentPurchaseComponent
+    ContentPurchaseComponent,
+    ContentWalletComponent
   ],
   imports: [
     BrowserModule,
