@@ -1,0 +1,37 @@
+.footer {
+    height:4rem;
+    line-height:4rem;
+    position:fixed;
+    bottom: 0;
+    left:0;
+    width:100vw;
+    background-color: #4B26AD;
+    
+  }
+
+  .colo{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    padding-right: 3rem;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .colo2{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100%;
+    padding-left: 3rem;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    
+  }
