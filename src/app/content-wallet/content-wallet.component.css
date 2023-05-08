@@ -195,10 +195,12 @@ margin-top: 0.4rem;
     color: #ffffff;
     border: none;
     border-radius: 50px;
-    padding: 5px 17px 7px 20px;
+    padding: 7px 33px 9px 33px;
     text-decoration: none;
     font-family: 'Montserrat';
     font-style: normal;
+    font-size: 15px;
+    
   }
 
   .span{
@@ -293,5 +295,37 @@ font-style: normal;
     position: relative;
   }
 
-  
-  
+  .wallet{
+    position: relative;
+    background-color: #97d0ed50;
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .imgw{
+    position: absolute;
+   padding: 68px 10px 0px 0px;
+   width: 45%;
+   height: 95%;
+   top: 5%;
+   left: 54%;
+  }
+
+  .cardt{
+    margin-top: 18px;
+    margin-bottom: 2px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+  }
+
+  .cardn{
+    margin-bottom: 14%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #4B26AD;
+  }
