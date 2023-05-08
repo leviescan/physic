@@ -89,80 +89,12 @@ margin-top: 0.4rem;
 
 
 
-  table {
-    width: 98%;
-    margin-left: 1%;
-    margin-right: 0%;
-    margin-top: 1%;
-    
-  }
-
-  td {
-    border-bottom: 1px solid #d2d2d2cb;
-    padding: 8px;
-    text-align:initial;
-  }
-
-  th {
-    
-    padding: 8px;
-    
-    background: #97d0ed67;
-    
-    
-  }
-
-  th:first-child {
-    
-    border-radius: 7px 0px 0px 7px;
-    padding: 0px 0px 0px 30px;
-    
-  }
-
-  td:first-child {
-    
-    border-radius: 7px 0px 0px 7px;
-    padding: 0px 30px 0px 0px;
-    
-  }
-  th:last-child {
-    border-radius: 0px 7px 7px 0px;
-    padding: 0px 0px 0px 0px;
-    right: 0;
-    text-align:center;
-  }
-  td:last-child {
-    padding: 0px 0px 0px 0px;
-    text-align:center;
-    
-  }
-
-  thead {
-    height: 0.5rem;
-    padding: 8px 0px 8px 8px;
-    margin: 0px 0px 0px 0px;
-    border-radius: 25px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 0.7rem;
-    color: #000;
-  }
-
-  tbody{
-    height: 0.5rem;
-    padding: 8px 0px 8px 8px;
-    padding: 1px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 0.75rem;
-  }
-
   .profile-pic {
     width: 20px;
     height: 20px;
-    border-radius: 50%;
+      margin-right: 0%;
+    margin-top: 1%;
+     border-radius: 50%;
     object-fit: cover;
     margin-right: 5px;
   }
@@ -172,7 +104,7 @@ margin-top: 0.4rem;
     align-items: center;
     justify-content: center;
     height: 100%;
-    margin-top: 2%;
+    margin-top: 12%;
     
   }
 
@@ -195,11 +127,12 @@ margin-top: 0.4rem;
     color: #ffffff;
     border: none;
     border-radius: 50px;
-    padding: 7px 33px 9px 33px;
+    padding: 7px 25px 7px 25px;
     text-decoration: none;
     font-family: 'Montserrat';
     font-style: normal;
     font-size: 15px;
+    margin-bottom: 5px;
     
   }
 
@@ -299,25 +232,33 @@ font-style: normal;
     position: relative;
     background-color: #97d0ed50;
     max-width: 100%;
-    height: 100%;
+    height: 105%;
   }
 
   .imgw{
     position: absolute;
-   padding: 68px 10px 0px 0px;
-   width: 45%;
-   height: 95%;
-   top: 5%;
-   left: 54%;
+   padding: 68px 5px 0px 0px;
+   width: 47%;
+   height: 98%;
+   top: 2.5%;
+   left: 51%;
+  }
+  .imgw2{
+    position: absolute;
+    padding: 68px 5px 0px 0px;
+    width: 34%;
+    height: 96%;
+    top: 4.7%;
+    left: 65%;
   }
 
   .cardt{
     margin-top: 18px;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 27px;
+    font-size: 24px;
   }
 
   .cardn{
@@ -325,7 +266,7 @@ font-style: normal;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 39px;
     color: #4B26AD;
   }
