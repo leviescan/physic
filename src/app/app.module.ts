@@ -11,6 +11,9 @@ import { FooterComponent } from './footer/footer.component';
 import { ContentReadingComponent } from './content-reading/content-reading.component';
 import { ContentPurchaseComponent } from './content-purchase/content-purchase.component';
 import { ContentWalletComponent } from './content-wallet/content-wallet.component';
+import { HistoryPurchaseComponent } from './history-purchase/history-purchase.component';
+import { PersonalInformationComponent } from './personal-information/personal-information.component';
+import { SuportComponent } from './suport/suport.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { ContentWalletComponent } from './content-wallet/content-wallet.componen
     FooterComponent,
     ContentReadingComponent,
     ContentPurchaseComponent,
-    ContentWalletComponent
+    ContentWalletComponent,
+    HistoryPurchaseComponent,
+    PersonalInformationComponent,
+    SuportComponent
   ],
   imports: [
     BrowserModule,
